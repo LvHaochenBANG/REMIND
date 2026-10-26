@@ -82,6 +82,6 @@ corresponding source publications when using these data.
   PEMS-Stream benchmark described in Expand and Compress [1].
 - **CAMELS**: the CAMELS dataset described by Addor et al. [3].
 
-1. Wei Chen and Yuxuan Liang. “Expand and Compress: Exploring Tuning Principles for Continual Spatio-Temporal Graph Forecasting.” ICLR, 2025. [Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/cb2266111eadcfa2c02187ace64e2183-Paper-Conference.pdf).
-2. Xu Chen, Junshan Wang, and Kunqing Xie. “TrafficStream: A Streaming Traffic Flow Forecasting Framework Based on Graph Neural Networks and Continual Learning.” IJCAI, pp. 3620–3626, 2021. [DOI](https://doi.org/10.24963/ijcai.2021/498).
-3. Nans Addor, Andrew J. Newman, Naoki Mizukami, and Martyn P. Clark. “The CAMELS data set: catchment attributes and meteorology for large-sample studies.” Hydrology and Earth System Sciences, 21(10):5293–5313, 2017. [DOI](https://doi.org/10.5194/hess-21-5293-2017).
+1. Wei Chen and Yuxuan Liang. “Expand and Compress: Exploring Tuning Principles for Continual Spatio-Temporal Graph Forecasting.” ICLR, 2025. 
+2. Xu Chen, Junshan Wang, and Kunqing Xie. “TrafficStream: A Streaming Traffic Flow Forecasting Framework Based on Graph Neural Networks and Continual Learning.” IJCAI, pp. 3620–3626, 2021. 
+3. Nans Addor, Andrew J. Newman, Naoki Mizukami, and Martyn P. Clark. “The CAMELS data set: catchment attributes and meteorology for large-sample studies.” Hydrology and Earth System Sciences, 21(10):5293–5313, 2017. 
