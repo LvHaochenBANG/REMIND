@@ -42,6 +42,11 @@ def compute_remind_loss(
     loss_var = _binary_alignment_loss(var_target, 1.0 - gate_raw)
     loss_mae = torch.abs(outputs["pred_mean"] - y).mean()
     loss = loss_nll + lambda_gate * loss_sim + lambda_mono * loss_var + lambda_mae * loss_mae
+    # 对于单个高斯分布，且 pred_mean = μ：
+    # L_NLL + λ_mse L_MSE
+    # = (y - μ)² / (2σ²) + log(√(2π)σ) + λ_mse (y - μ)²
+    # = [1 / (2σ²) + λ_mse] (y - μ)² + log(√(2π)σ)
+    # MSE 相当于增大 NLL 的均值平方误差项的系数。
 
     return {
         "loss": loss,
